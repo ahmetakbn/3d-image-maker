@@ -15,3 +15,6 @@ Copy Make3DImage class to you library
 Copy project to your local server and run <i><b>index.php</b></i>
 
 Your 3d image will be created under uploads directory. To test with different images, you must edit <i><b>index.php</b></i> to put your images name and directiory.
+
+# Live Site
+Please visit http://www.create3dphoto.com to see how it works
