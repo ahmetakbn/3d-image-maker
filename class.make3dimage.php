@@ -17,6 +17,7 @@ class Make3dImage{
 	private $leftImage;
 	private $rightImage;
 	private $uploadPath;
+	private $imageName3d;
 
 	function __construct(){
 		
@@ -50,6 +51,16 @@ class Make3dImage{
 	public function setUploadPath($path)
 	{
 		$this->uploadPath = $path;
+	}
+
+
+	/**
+	* set upload path
+	* @param  string  $imagename 3d image name
+	*/
+	public function set3dImageName($imagename)
+	{
+		$this->imageName3d = $imagename;
 	}
 
 
@@ -94,7 +105,7 @@ class Make3dImage{
 
 		}
 
-		$img3d = $this->uploadPath.'/3d_image.jpg';
+		$img3d = $this->uploadPath.'/'.$this->imageName3d;
 
 		$make = imagejpeg($im2, $img3d);
 
