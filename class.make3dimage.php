@@ -1,6 +1,6 @@
 <?php
 
-/*
+/**
  * Make3dImage - Makes 3D images from 2D
  *
  * @author Ahmet Akbana - ahmetakbana@gmail.com
@@ -55,7 +55,7 @@ class Make3dImage{
 
 
 	/**
-	* set upload path
+	* set 3d image name
 	* @param  string  $imagename 3d image name
 	*/
 	public function set3dImageName($imagename)
