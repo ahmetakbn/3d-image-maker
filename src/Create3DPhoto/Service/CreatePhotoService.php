@@ -8,8 +8,9 @@ use Create3DPhoto\Entity\Photo;
  * Creates 3D photos from 2D
  *
  * @author Ahmet Akbana - ahmetakbana@gmail.com
- * @version V1.0
- * @date January 18 2015
+ * @link http://github.com/ahmetakbn/create3dphoto
+ * @version 1.0.0
+ * @date April 18 2015
  */
 class CreatePhotoService
 {
