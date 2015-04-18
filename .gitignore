@@ -3,3 +3,4 @@
 /vendor
 /uploads
 client.php
+/bin/composer.phar
