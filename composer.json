@@ -1,0 +1,26 @@
+{
+    "name": "create3dphoto",
+    "description": "Creates 3D/Anaglyph photos from 2D photos",
+    "authors": [
+        {
+            "name": "Ahmet Akbana",
+            "email": "ahmetakbana@gmail.com"
+        }
+    ],
+
+    "config": {
+        "bin-dir": "bin"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Create3DPhoto\\": "src/"
+        }
+    },
+
+    "require": {
+        "phpunit/phpunit": "3.7.*"
+    },
+
+    "minimum-stability": "dev"
+}
