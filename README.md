@@ -1,7 +1,7 @@
-# 3d-image-maker
-Makes 3D image from two 2D images. There must be two 2D images for making the 3d image.
+# Create 3D Photo
+Creates 3D photos from two 2D photos. There must be two 2D photos for making the 3d photo.
 
-# How to take 2D images
+# How to take 2D photos
 Take two photos of the same scene, moving the camera at least 2 inches horizontally. It's not critical that you make the boundaries exactly match, but it is critical for many shots that both photos are close to perfectly horizontal. It would be a good idea to use a tripod with a level.
 Name your files "right" and "left" for easy distinction.
 
